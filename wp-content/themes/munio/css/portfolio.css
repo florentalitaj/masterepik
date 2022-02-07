@@ -68,11 +68,11 @@
 	.light-content .filters-info {
 		color:#fff;
 	}
-	
+
 	#show-filters {
 		margin: 0 auto;
 		text-align: center;
-		display: none;
+		display: none !important;
 		visibility:hidden
 	}
 	
