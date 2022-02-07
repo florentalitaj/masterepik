@@ -801,10 +801,16 @@
 	}
 	
 	main {
+		position: relative;
 		-webkit-transition: background 0.4s ease-in-out 0s;
 		transition: background 0.4s ease-in-out 0s;
+		background-color: transparent !important;
+		background: linear-gradient(90deg, rgba(63,1,42,1) 0%, rgba(9,1,17,1) 100%) !important;
+		background: url(images/overlay_noise.png), linear-gradient(90deg, rgba(63,1,42,1) 0%, rgba(9,1,17,1) 100%) !important;
+		background-size: cover;
+		background-position: center;
 	}
-
+	
 /*--------------------------------------------------
 	02. Magic Cursor
 ---------------------------------------------------*/	
@@ -1104,7 +1110,12 @@
 	}
 	
 	.light-content.preloader-wrap {
-		background: #000;
+		/* background: #000; */
+		background: linear-gradient(90deg, rgba(63,1,42,1) 0%, rgba(9,1,17,1) 100%) !important;
+		background: url(images/overlay_noise.png), linear-gradient(90deg, rgba(63,1,42,1) 0%, rgba(9,1,17,1) 100%) !important;
+		background-size: cover;
+		background-position: center;
+		
 	}
 	
 	.percentage {		
