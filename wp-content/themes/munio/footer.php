@@ -29,4 +29,12 @@
     <div id="rotate-device"></div>
 <?php wp_footer(); ?>
 </body>
+<script>
+	const copyright = document.querySelector('.copyright');
+	let html = copyright.innerHTML;
+	let year =  new Date().getFullYear();
+	copyright.innerHTML = "&copy; " + year + " " + html;
+	console.log(year);
+	console.log(html);
+</script>
 </html>

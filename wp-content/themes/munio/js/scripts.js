@@ -567,9 +567,9 @@ Function First Load
 		
 		
 		var viewportWidth = $(window).width();
-		if (viewportWidth < 1024) {				
-			$('.hero-video-wrapper').remove();							 
-		}
+		// if (viewportWidth < 1024) {				
+		// 	$('.hero-video-wrapper').remove();							 
+		// }
 		
 		$('#backtotop').on('click', function() {	
 			if ($("body").hasClass("smooth-scroll")) {

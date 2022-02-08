@@ -806,8 +806,8 @@
 		transition: background 0.4s ease-in-out 0s;
 		background-color: transparent !important;
 		background: linear-gradient(90deg, rgba(63,1,42,1) 0%, rgba(9,1,17,1) 100%) !important;
-		background: url(images/overlay_noise.png), linear-gradient(90deg, rgba(63,1,42,1) 0%, rgba(9,1,17,1) 100%) !important;
-		background-size: cover;
+		background: url(/wp-content/themes/munio/images/overlay_noise.png), linear-gradient(90deg, rgba(63,1,42,1) 0%, rgba(9,1,17,1) 100%) !important;
+		background-repeat: cover;
 		background-position: center;
 	}
 	
@@ -2231,6 +2231,7 @@
 		z-index:10;		
 		-webkit-transition: all 0.4s ease-in-out 0s;
 		transition: all 0.4s ease-in-out 0s;
+		background-color: transparent !important;
 	}
 	
 	#main-page-content {
@@ -2876,7 +2877,7 @@
 	}
 	
 	.button-wrap.right.menu {
-		right: 10px;
+		right: 50px;
 	}
 	
 	nav {
@@ -3447,7 +3448,7 @@
 	}
 	
 	.button-wrap.right.menu {
-		right: -10px;
+		right: 10px;
 	}
 	
 	.flexnav {
