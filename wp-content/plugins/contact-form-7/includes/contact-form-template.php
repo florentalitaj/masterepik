@@ -163,7 +163,6 @@ function wpcf7_messages() {
 			'default'
 				=> __( "Thank you for your message. It has been sent.", 'contact-form-7' ),
 		),
-
 		'mail_sent_ng' => array(
 			'description'
 				=> __( "Sender's message failed to send", 'contact-form-7' ),
